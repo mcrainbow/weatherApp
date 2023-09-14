@@ -1,0 +1,122 @@
+.main {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 1270px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 40px 20px;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: gray;
+}
+.weather__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather__input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.weather__search {
+  width: 80%;
+  border: 1px solid white;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+
+  color: gray;
+  font-weight: bold;
+  font-size: 20px;
+}
+.weather__search:focus {
+  border: none;
+  outline: none;
+}
+.weather__btn {
+  cursor: pointer;
+}
+.weather__image {
+  width: 200px;
+  height: 200px;
+
+  margin-bottom: 20px;
+}
+.weather__image img {
+  width: 100%;
+  height: 100%;
+}
+.weather__text {
+  color: white;
+
+  margin-bottom: 40px;
+}
+.weather__temp {
+  margin: 0;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.weather__city {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+.weather__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.weather__temp-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 10px;
+}
+.weather__temp-feel {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.weather__temp-info {
+  font-size: 20px;
+  font-weight: bold;
+}
+.weather__temp-name {
+  font-size: 17px;
+}
+.weather__wind {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.weather__wind-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 10px;
+}
+.weather__wind-info {
+  font-size: 20px;
+  font-weight: bold;
+}
+.weather__wind-name {
+  font-size: 17px;
+}
